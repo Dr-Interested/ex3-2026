@@ -21,7 +21,7 @@ const streams = [
     borderColor: 'border-ex-red/40',
     glowColor: 'shadow-ex-red/20',
     icon: '🩺',
-    file: null as string | null, // e.g. 'medicine-2025.pdf'
+    file: 'Med cases.pdf' as string | null, // e.g. 'medicine-2025.pdf'
     caseCount: 2,
   },
   {
@@ -31,7 +31,7 @@ const streams = [
     borderColor: 'border-ex-blue/40',
     glowColor: 'shadow-ex-blue/20',
     icon: '⚖️',
-    file: null as string | null, // e.g. 'law-2025.pdf'
+    file: 'Law cases.pdf' as string | null, // e.g. 'law-2025.pdf'
     caseCount: 2,
   },
   {
@@ -41,7 +41,7 @@ const streams = [
     borderColor: 'border-slate-600/40',
     glowColor: 'shadow-slate-500/20',
     icon: '📈',
-    file: null as string | null, // e.g. 'finance-2025.pdf'
+    file: 'Finance cases.pdf' as string | null, // e.g. 'finance-2025.pdf'
     caseCount: 2,
   },
 ];
