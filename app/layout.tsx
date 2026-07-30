@@ -26,6 +26,15 @@ export const metadata: Metadata = {
     'finance competition',
     'youth education',
     'Peel District School Board',
+    'Adil Mukhi',
+    'Dr. Interested',
+    'healthcare education',
+    'medical innovation',
+    'youth leadership',
+    'student-led organization',
+    'pre-law competition',
+    'pre-med competition',
+    'business case competition',
   ],
   authors: [{ name: 'Explore 3 Executive Team', url: siteUrl }],
   creator: 'Explore 3 Case Competition',
@@ -104,6 +113,12 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Explore 3 Case Competition RSS Feed"
+          href="/rss.xml"
         />
       </head>
       <body className={inter.className} suppressHydrationWarning>
