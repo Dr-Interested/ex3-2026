@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import ClientNavbarWrapper from './components/ClientNavbarWrapper';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -142,6 +143,7 @@ export default function RootLayout({
         <ClientNavbarWrapper>
           {children}
         </ClientNavbarWrapper>
+        <SpeedInsights />
       </body>
     </html>
   );
